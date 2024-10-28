@@ -4,7 +4,7 @@
   <img src="https://www.svgrepo.com/show/367180/req.svg" alt="ReqQuest Logo" width="100" />
 </p>
 
-ReqQuest is a user-friendly API testing tool that lets you send requests, view responses in JSON format, and download them for further analysis. No sign-up is required, and you can start testing APIs instantly for free!
+ReqQuest is a browser-based user-friendly REST API testing tool that lets you send requests, view responses in JSON format, and download them for further analysis. No sign-up is required, and you can start testing APIs instantly for free!
 
 ---
 
@@ -24,6 +24,7 @@ ReqQuest is a user-friendly API testing tool that lets you send requests, view r
 - **Frontend**: React, Bootstrap
 - **Backend**: Axios for HTTP requests
 - **Deployment**: Render (for backend deployment)
+- Netlify (for frontend deployment)
   
 ---
 
