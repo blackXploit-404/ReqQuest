@@ -1,7 +1,8 @@
 # ReqQuest
 
-![ReqQuest Logo](<img src="https://www.svgrepo.com/show/367180/req.svg" alt="ReqQuest Logo" width="100" />) 
-### Your Ultimate Companion for a Seamless API Testing Journey
+<p align="center">
+  <img src="https://www.svgrepo.com/show/367180/req.svg" alt="ReqQuest Logo" width="100" />
+</p>
 
 ReqQuest is a user-friendly API testing tool that lets you send requests, view responses in JSON format, and download them for further analysis. No sign-up is required, and you can start testing APIs instantly for free!
 
@@ -53,7 +54,7 @@ ReqQuest is a user-friendly API testing tool that lets you send requests, view r
    ```
    The app should now be running on `http://localhost:5000`.
    
-4. **Install Dependencies for Backend**
+4. **Install Dependencies for Frontend**
    ```bash
    cd ReqQuest-Frontend
    npm i
