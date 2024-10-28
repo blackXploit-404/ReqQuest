@@ -1,6 +1,6 @@
 # ReqQuest
 
-![ReqQuest Logo](https://www.svgrepo.com/show/367180/req.svg) 
+![ReqQuest Logo](<img src="./assests/logo.svg" alt="ReqQuest Logo" width="100" />) 
 ### Your Ultimate Companion for a Seamless API Testing Journey
 
 ReqQuest is a user-friendly API testing tool that lets you send requests, view responses in JSON format, and download them for further analysis. No sign-up is required, and you can start testing APIs instantly for free!
@@ -41,12 +41,26 @@ ReqQuest is a user-friendly API testing tool that lets you send requests, view r
    cd ReqQuest
    ```
 
-2. **Install Dependencies**
+2. **Install Dependencies for Backend**
    ```bash
-   npm install
+   cd ReqQuest-Backend
+   npm i
    ```
 
 3. **Run the App Locally**
+   ```bash
+   node index.js
+   ```
+   The app should now be running on `http://localhost:5000`.
+   
+4. **Install Dependencies for Backend**
+   ```bash
+   cd ReqQuest-Frontend
+   npm i
+   
+   ```
+
+5. **Run the App Locally**
    ```bash
    npm start
    ```
@@ -93,6 +107,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📬 Contact
 
-For any questions or feedback, please reach out to **[Your Name](https://github.com/yourusername)**.
+For any questions or feedback, please reach out to **[Your Name](https://github.com/blackXploit-404)**.
 
 Happy testing with **ReqQuest**! 🛠️
