@@ -1,6 +1,6 @@
 # ReqQuest
 
-![ReqQuest Logo](<img src="./assests/logo.svg" alt="ReqQuest Logo" width="100" />) 
+![ReqQuest Logo](<img src="https://www.svgrepo.com/show/367180/req.svg" alt="ReqQuest Logo" width="100" />) 
 ### Your Ultimate Companion for a Seamless API Testing Journey
 
 ReqQuest is a user-friendly API testing tool that lets you send requests, view responses in JSON format, and download them for further analysis. No sign-up is required, and you can start testing APIs instantly for free!
@@ -107,6 +107,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📬 Contact
 
-For any questions or feedback, please reach out to **[Your Name](https://github.com/blackXploit-404)**.
+For any questions or feedback, please reach out to **[Surajit Sen](https://github.com/blackXploit-404)**.
 
 Happy testing with **ReqQuest**! 🛠️
