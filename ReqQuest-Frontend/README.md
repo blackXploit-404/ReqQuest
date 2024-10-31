@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# ReqQuest
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://www.svgrepo.com/show/367180/req.svg" alt="ReqQuest Logo" width="100" />
+</p>
 
-## Available Scripts
+ReqQuest is a browser-based user-friendly REST API testing tool that lets you send requests, view responses in JSON format, and download them for further analysis. No sign-up is required, and you can start testing APIs instantly for free!
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌟 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Supports All Major HTTP Methods**: GET, POST, PUT, DELETE.
+- **Customizable Headers and Body**: Define request headers and payload in JSON format.
+- **Response Viewer**: View response data in a collapsible, readable JSON format.
+- **Downloadable Response**: Easily save your API response as a JSON file.
+- **Responsive Design**: Works seamlessly across devices.
+- **Free to Use**: No credit card or registration required.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend**: React, Bootstrap
+- **Backend**: Axios for HTTP requests
+- **Deployment**: Render (for backend deployment)
+- Netlify (for frontend deployment)
+  
+---
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js and npm installed.
+- An IDE or text editor (e.g., VS Code).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/blackXploit-404/ReqQuest.git
+   cd ReqQuest
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Install Dependencies for Backend**
+   ```bash
+   cd ReqQuest-Backend
+   npm i
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Run the App Locally**
+   ```bash
+   node index.js
+   ```
+   The app should now be running on `http://localhost:5000`.
+   
+4. **Install Dependencies for Frontend**
+   ```bash
+   cd ReqQuest-Frontend
+   npm i
+   
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. **Run the App Locally**
+   ```bash
+   npm start
+   ```
+   The app should now be running on `http://localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🔧 Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Enter the API URL.
+2. Choose the HTTP method.
+3. (Optional) Add Headers and Body in JSON format.
+4. Click **Send Request** to fetch the API response.
+5. View the response in the JSON viewer and download it if needed.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📂 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **`src/App.js`**: Main component handling form input, request submission, and response display.
+- **`src/assets/logo.svg`**: Logo used in the header.
+- **`src/App.css`**: Custom styling for components.
+  
+---
 
-### Analyzing the Bundle Size
+## 🐛 Troubleshooting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Invalid JSON Error**: Ensure headers and body fields have valid JSON format (e.g., `{"key": "value"}`).
+- **CORS Issues**: If testing on certain APIs, you may encounter CORS errors depending on their configuration.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👥 Contributing
 
-### Advanced Configuration
+Feel free to fork the repository and submit pull requests for new features or improvements. Contributions are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📬 Contact
+
+For any questions or feedback, please reach out to **[Surajit Sen](https://github.com/blackXploit-404)**.
+
+Happy testing with **ReqQuest**! 🛠️
