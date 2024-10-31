@@ -20,6 +20,7 @@ function App() {
         let parsedHeaders = {};
         let parsedBody = {};
 
+        
         try {
             parsedHeaders = headers ? JSON.parse(headers) : {};
             parsedBody = body ? JSON.parse(body) : {};
@@ -139,17 +140,14 @@ function App() {
                 </Col>
             </Row>
 
+            
             <Row>
                 <Col md={12}>
                     {response && (
                         <Card className="p-4 shadow-sm">
                             <h3 className="text-center">Response</h3>
                             <div className="response-container" style={{ maxHeight: '400px', overflowY: 'auto' }}>
-                                <h5>Status: {response.status || 'N/A'}</h5>
-                                <h5>Headers:</h5>
-                                <ReactJson src={response.headers || {}} theme="nord" collapsed={false} />
-                                <h5>Body:</h5>
-                                <ReactJson src={response.body || response} theme="nord" collapsed={false} />
+                                <ReactJson src={response} theme="nord" collapsed={false} />
                             </div>
                             <Button variant="success" onClick={handleDownload} className="mt-3 w-100">
                                 Download Data
@@ -166,6 +164,7 @@ function App() {
                 </Col>
             </Row>
 
+          
             <footer className="text-center mt-4">
                 <img src='https://www.svgrepo.com/show/367180/req.svg' alt="ReqQuest Logo" style={{ width: '30px', marginBottom: '5px', marginRight:'5px' }} />
                 <p>&copy; {new Date().getFullYear()} ReqQuest. All rights reserved.</p>
